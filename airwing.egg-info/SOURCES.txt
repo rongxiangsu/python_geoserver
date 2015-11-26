@@ -1,9 +1,0 @@
-README.rst
-setup.py
-airwing/__init__.py
-airwing/publish.py
-airwing.egg-info/PKG-INFO
-airwing.egg-info/SOURCES.txt
-airwing.egg-info/dependency_links.txt
-airwing.egg-info/top_level.txt
-airwing.egg-info/zip-safe

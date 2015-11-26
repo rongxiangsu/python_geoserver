@@ -10,9 +10,9 @@ except:
 def read(fname):
     return codecs.open(os.path.join(os.path.dirname(__file__), fname)).read()
 
-NAME = "airwing"
+NAME = "airwing_auto_publish_geoserver"
 
-PACKAGES = ["airwing"]
+PACKAGES = ["airwing_auto_publish_geoserver"]
 
 DESCRIPTION = "this is a package for auto publish web map service in geosever and get geoinfo from the WMS."
 
@@ -24,7 +24,7 @@ AUTHOR = "wushi"
 
 AUTHOR_EMAIL = "hfutsrx@sina.com"
 
-VERSION = "1.0.1"
+VERSION = "1.0.3"
 
 URL = "https://github.com/surongxiang/python_geoserver"
 
