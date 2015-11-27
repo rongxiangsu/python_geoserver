@@ -154,7 +154,7 @@ while 1:
         else:
                 errorPrint("invalid taskID")
 
-url = "http://localhost:8080/rest/workspaces/" + user + "/coveragestores/" + taskID + "/external.geotiff"
+url = "http://localhost:8080/geoserver/rest/workspaces/" + user + "/coveragestores/" + taskID + "/external.geotiff"
 data = 'file:/mnt/geodata/' + taskID + '.tif'
 
 if url:
